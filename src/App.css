@@ -39,7 +39,7 @@
   z-index: 99;
 }
 .activeHeader{
-  transform: translateY(1px);
+  transform: translateY(0px);
   transition: .5s all;
 }
 .img-wrap{
@@ -80,4 +80,30 @@
 .img-wrap:hover::before{
   background: transparent;
   transition: .3s ease-in-out;
+}
+.btnEffect{
+  border: 2px solid #64FFDA;
+  color: #64FFDA;
+}
+.btnEffect:hover{
+  transform: translateX(-4px) translateY(-4px);
+  box-shadow: 4px 4px #64FFDA;
+  transition: .3s;
+}
+.linkAftr::after{
+    content: "";
+    height: 132px;
+    width: 2px;
+    background: rgb(107, 103, 103);
+    position: fixed;
+    bottom: 0;
+}
+.socialWrap::after{
+  left: 50px;
+}
+.email{
+  writing-mode:tb;
+}
+.email::after{
+  right: 52px;
 }

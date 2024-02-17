@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../images/myImage.png'
+import myImage3 from '../images/Videoshot_20240211_171509.jpg';
 
 const About = () => {
   return (
@@ -14,12 +14,12 @@ const About = () => {
           <p className='text-zinc-300 py-3 text-lg'>Here are a few technologies I’ve been working with recently:</p>
           <div className="flex gap-20 text-zinc-500 ">
             <ul className='flex flex-col gap-1'>
-              {["Html", "Css", "JavaScript", "React", "Git"].map((link,index) => {
+              {["Html", "Css", "JavaScript", "React", "Redux toolKit"].map((link,index) => {
                 return <li key={index}><i className="fa-solid fa-play text-[10px] text-[#64FFDA] pr-2"></i>{link}</li>
               })}
             </ul>
             <ul className='flex flex-col gap-1'>
-              {["Bootstrap", "Tailwind Css", "Sass", "Github", "Vs Code"].map((link,index) => {
+              {["Bootstrap", "Tailwind Css", "Sass", "Github", "Git"].map((link,index) => {
                 return <li key={index}><i className="fa-solid fa-play text-[10px] text-[#64FFDA] pr-2"></i>{link}</li>
               })}
             </ul>
@@ -29,8 +29,8 @@ const About = () => {
       </div>
       <div className="col-span-1"></div>
       <div className='col-span-5'>
-        <div className="img-wrap w-80 ">
-          <img src={myImage} alt="Myself" className='w-full h-full rounded-lg' />
+        <div className="img-wrap w-80 h-80 ">
+          <img src={myImage3} alt="Myself" className='w-full h-full rounded-lg object-cover ' />
         </div>
       </div>
     </div>

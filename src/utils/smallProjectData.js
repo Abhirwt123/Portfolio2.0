@@ -36,8 +36,8 @@ const SmallProjectsData=[
     CodeLink:""
 },
 {
-    title:"ajshasjkdhasjdhska",
-    info:"jdhfjsdf jfhksajdhfk sdfhskdfhks djfhsakjdhfishdfiweufwhdweifn wedhiwheufdhw",
+    title:"Portfolio",
+    info:"This is my old portfolio using html Sass and javscript.. ",
     techs:[
         "Html","Css","JavaScript"
       ],
