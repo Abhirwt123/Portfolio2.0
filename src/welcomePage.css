@@ -1,0 +1,32 @@
+.welcomepage {
+    --background:#0A192F;
+    --accent: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--accent);
+    padding-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    min-height: 100vh;
+  }
+  .welcomeCount {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 100px 0 40px;
+  }
+
+  #progress {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: rotate(-90deg);
+  }
+  .welcomeCount{
+    font-size: 100px;
+  }
+  

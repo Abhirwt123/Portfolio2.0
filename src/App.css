@@ -16,7 +16,7 @@
     /* position: relative;
     top: 0; */
 }
-.title{
+/* .title{
   position: relative;
 }
 .title::after{
@@ -24,10 +24,10 @@
   position: absolute;
   width: 30%;
   top: 50px;
-  height: 2px;
+  height: 1px;
   background: gray;
 
-}
+} */
 .progress-bar {
   position: fixed;
   top: 0;
@@ -99,11 +99,41 @@
     bottom: 0;
 }
 .socialWrap::after{
-  left: 50px;
+  left: 29px;
 }
 .email{
   writing-mode:tb;
 }
 .email::after{
-  right: 52px;
+  right: 33px;
 }
+
+.projectImg::after{
+  background: #64ffdb67;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: .3s ease-in-out;
+}
+.projectImg:hover:after{
+  background: transparent;
+}
+
+/* 
+.welcomepage{
+  min-height: 100vh;
+  background: #000000;
+  position: relative;
+  z-index: 999;
+}
+
+circle,
+rect,
+line {
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: transparent;
+} */

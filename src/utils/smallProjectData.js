@@ -5,8 +5,8 @@ const SmallProjectsData=[
     techs:[
       "Html","Css","JavaScript"
     ],
-    liveLink:"",
-    CodeLink:""
+    liveLink:"https://abhirwt123.github.io/Image_gallery/",
+    CodeLink:"https://github.com/Abhirwt123/Image_gallery"
 },
 {
     title:"Notes Taking Project",
@@ -14,8 +14,8 @@ const SmallProjectsData=[
     techs:[
         "Html","Css","JavaScript"
       ],
-    liveLink:"",
-    CodeLink:""
+    liveLink:"https://abhirwt123.github.io/Notes_taking_project/",
+    CodeLink:"https://github.com/Abhirwt123/Notes_taking_project"
 },
 {
     title:"Starbucks UI",
@@ -23,8 +23,8 @@ const SmallProjectsData=[
     techs:[
         "Html","Css","JavaScript" ,"Sass"
       ],
-    liveLink:"",
-    CodeLink:""
+    liveLink:"https://abhirwt123.github.io/StarbucksUI/",
+    CodeLink:"https://github.com/Abhirwt123/StarbucksUI"
 },
 {
     title:"Javascript Game",
@@ -41,18 +41,10 @@ const SmallProjectsData=[
     techs:[
         "Html","Css","JavaScript"
       ],
-    liveLink:"",
-    CodeLink:""
+    liveLink:"https://abhirwt123.github.io/Portfolio/",
+    CodeLink:"https://github.com/Abhirwt123/Portfolio"
 },
-{
-    title:"ajshasjkdhasjdhska",
-    info:"jdhfjsdf jfhksajdhfk sdfhskdfhks djfhsakjdhfishdfiweufwhdweifn wedhiwheufdhw",
-    techs:[
-        "Html","Css","JavaScript"
-      ],
-    liveLink:"",
-    CodeLink:""
-},
+
 ];
 
 export default SmallProjectsData;
