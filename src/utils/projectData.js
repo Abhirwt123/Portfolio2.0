@@ -1,4 +1,5 @@
 import foodProject from '../images/projectImages/foodProject.png'
+import moviesProject from '../images/movies.jpg'
 const ProjectData = [
   {
     title: "Netflix Clone",
@@ -6,7 +7,7 @@ const ProjectData = [
     tech: "React,react-toolkit,react-router-dom,Tailwind css",
     codeLink: "https//:github/abhi123/netflixClone",
     liveUrl: "https//",
-    imgUrl: "",
+    imgUrl: moviesProject,
   },
   {
     title: "Find Food Recipes",
