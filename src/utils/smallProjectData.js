@@ -27,15 +27,6 @@ const SmallProjectsData=[
     CodeLink:"https://github.com/Abhirwt123/StarbucksUI"
 },
 {
-    title:"Javascript Game",
-    info:"jdhfjsdf jfhksajdhfk sdfhskdfhks djfhsakjdhfishdfiweufwhdweifn wedhiwheufdhw",
-    techs:[
-        "Html","Css","JavaScript"
-      ],
-    liveLink:"",
-    CodeLink:""
-},
-{
     title:"Portfolio",
     info:"This is my old portfolio using html Sass and javscript.. ",
     techs:[
